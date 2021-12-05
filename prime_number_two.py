@@ -10,14 +10,11 @@ print(list_of_numbers)
 non_prime_numbers = []
 
 #Iterate through the list and select the non-prime numbers
-for number in list_of_numbers:
-    for i in range(2, number):
+for number in list_of_numbers: #[10, 11, 12, 13, 14....., 19, 20]
+    for i in range(2, number): #[2, 3, 4, 5, 6, .....9]
         if (number % i) == 0:
             non_prime_numbers.append(number)
             break
-        
             
-   
-            
-# non_prime_numbers = list(set(non_prime_numbers))
+#non_prime_numbers = list(set(non_prime_numbers))
 print(non_prime_numbers)            
