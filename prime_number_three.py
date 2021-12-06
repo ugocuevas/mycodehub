@@ -6,7 +6,7 @@
 list_of_numbers = list(range(10, 21)) 
 print(list_of_numbers)
 
-#Create a list to append the non-prime number
+#Create a set to append the non-prime number
 non_prime_numbers = set()
 
 #Iterate through the list and select the non-prime numbers
