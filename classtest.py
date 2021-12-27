@@ -20,3 +20,4 @@ class Cake:
 """Creating an instance of a class"""
 christmas_cake = Cake('Christmas', 'vanilla', 'round')
 print(f"The cake I had this christmas was {christmas_cake.flavour} flavoured and it was {christmas_cake.shape}")
+christmas_cake.spoil()
