@@ -12,6 +12,7 @@ class Cake:
         self.shape = shape
         
     def melt(self):
+        """This is a function that determines how the cake will melt"""
         print(f"Uh oh! The {self.flavour} cake has melted")
         
     def spoil(self):
@@ -21,3 +22,6 @@ class Cake:
 christmas_cake = Cake('Christmas', 'vanilla', 'round')
 print(f"The cake I had this christmas was {christmas_cake.flavour} flavoured and it was {christmas_cake.shape}")
 christmas_cake.spoil()
+
+your_cake = Cake('Regular', 'chocolate', 'square')
+your_cake.melt()
