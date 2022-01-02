@@ -1,4 +1,5 @@
-
+#Creating a new class and adding default parameters, using a method to alter parameters
+#Super and sub classes
 
 class Car:
     def __init__(self, brand, model, colour, max_speed):
